@@ -1,4 +1,4 @@
-# AUTO (an **A**utonomous **U**av that **T**racks **O**bject)
+# AUTO (an **_A_**utonomous **_U_**av that **_T_**racks **_O_**bject)
 ##  An Autonomous Object Tracking UAV System for Surveillance Applications
 This project is based upon the state-of-the-art [YOLO series](https://github.com/AlexeyAB/darknet) and the famous Kalman Filter. With both camera and object moving, our system is able to track the target robustly in a 3D world.
 
