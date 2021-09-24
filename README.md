@@ -38,6 +38,12 @@ cd ~/xx_ws
 catkin_make
 ```
 
+3. Run
+```
+rosrun offb camera && rosrun offb track
+#or can just write a launch file
+```
+
 
 ## Maintainer 
 **Patrick Li-yu LO**: [liyu.lo@connect.polyu.hk](liyu.lo@connect.polyu.hk)<br/>
