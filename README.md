@@ -40,5 +40,5 @@ catkin_make
 
 
 ## Maintainer 
-Patrick Li-yu LO (Dept.AAE,PolyU): [liyu.lo@connect.polyu.hk](liyu.lo@connect.polyu.hk)
+Patrick Li-yu LO (Dept.AAE,PolyU): [liyu.lo@connect.polyu.hk](liyu.lo@connect.polyu.hk)<br/>
 Contributor: Summer Chi Hao Yiu && Bryant Yu Tang
