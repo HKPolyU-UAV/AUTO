@@ -15,7 +15,7 @@ The ever-burgeoning growth of autonomous unmanned aerial vehicles (UAVs) has dem
 * Installation of ROS: **ROS or Melodic:** [ROS Install](http://wiki.ros.org/ROS/Installation)
 * Requires **OpenCV >= 4.4:** [OpenCV Linux Install](https://docs.opencv.org/4.4.0/d7/d9f/tutorial_linux_install.html)
 * **Python 3.8** 
-* & **CUDNN >= 7.0:** [cuDNN Archive](https://developer.nvidia.com/rdp/cudnn-archive)
+* **CUDNN >= 7.0:** [cuDNN Archive](https://developer.nvidia.com/rdp/cudnn-archive)
 * Realsense libraries [librealsense github](https://github.com/IntelRealSense/librealsense/blob/master/doc/distribution_linux.md)
 * Realsense ros-wrapper, we suggest users to build from source [ros wapper](https://github.com/IntelRealSense/realsense-ros#step-2-install-intel-realsense-ros-from-sources)
 
