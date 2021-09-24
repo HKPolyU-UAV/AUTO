@@ -65,7 +65,6 @@ int main(int argc, char** argv)
     cv::VideoWriter videogt("/home/patrick/track_ws/src/offb/src/include/yolo/gt.avi", cv::VideoWriter::fourcc('M','J','P','G'), 8, cv::Size(640,480));
 
 
-    // >>>> Kalman Filter
     int stateSize = 8;
     int measSize = 5;
     int contrSize = 0;
@@ -75,46 +74,14 @@ int main(int argc, char** argv)
 
     cv::Mat state(stateSize, 1, type);  // [x,y,z,v_x,v_y,v_z,w,h] need z as well
     cv::Mat meas(measSize, 1, type);    // [z_x,z_y,z_w,z_h]
-    //cv::Mat procNoise(stateSize, 1, type)
-    // [E_x, E_y, E_z, E_v_x, E_v_y, E_v_z,E_w,E_h]
-
-    // Transition State Matrix A
-    // Note: set dT at each processing step!
-    // [ 1 0 0 dT  0  0  0  0]
-    // [ 0 1 0  0 dT  0  0  0]
-    // [ 0 0 1  0  0 dT  0  0]
-    // [ 0 0 0  1  0  0  0  0]
-    // [ 0 0 0  0  1  0  0  0]
-    // [ 0 0 0  0  0  1  0  0]
-    // [ 0 0 0  0  0  0  1  0]
-    // [ 0 0 0  0  0  0  0  1]
 
 
     cv::setIdentity(kf.transitionMatrix);
-
-    // Measure Matrix H
-    // [ 1 0 0 0 0 0 0 0]
-    // [ 0 1 0 0 0 0 0 0]
-    // [ 0 0 1 0 0 0 0 0]
-    // [ 0 0 0 0 0 0 1 0]
-    // [ 0 0 0 0 0 0 0 1]
-
 
     kf.measurementMatrix = cv::Mat::zeros(measSize, stateSize, type);
     kf.measurementMatrix.at<float>(0) = 1.0f;
     kf.measurementMatrix.at<float>(9) = 1.0f;
     kf.measurementMatrix.at<float>(18) = 1.0f;
-
-    // Process Noise Covariance Matrix Q
-    // [ Ex   0    0     0    0     0   0   0  ]
-    // [ 0    Ey   0     0    0     0   0   0  ]
-    // [ 0    0   Ez     0    0     0   0   0  ]
-    // [ 0    0    0   Ev_x   0     0   0   0  ]
-    // [ 0    0    0     0   Ev_y   0   0   0  ]
-    // [ 0    0    0     0    0   Ev_z  0   0  ]
-    // [ 0    0    0     0    0     0   Ew  0  ]
-    // [ 0    0    0     0    0     0   0   Eh ]
-
 
     //cv::setIdentity(kf.processNoiseCov, cv::Scalar(1e-2));
     kf.processNoiseCov.at<float>(0) = 1e-2;
@@ -126,11 +93,8 @@ int main(int argc, char** argv)
     kf.processNoiseCov.at<float>(54) = 1e-2;
     kf.processNoiseCov.at<float>(63) = 1e-2;
 
-    // Measures Noise Covariance Matrix R
     cv::setIdentity(kf.measurementNoiseCov, cv::Scalar(1e-1));
-    // <<<< Kalman Filter
 
-    // Camera Index
     int idx = 0;
 
     cout<<"Object detection..."<<endl;
