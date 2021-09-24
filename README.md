@@ -24,7 +24,7 @@ The ever-burgeoning growth of autonomous unmanned aerial vehicles (UAVs) has dem
 * Suggested dataset scale: 2000 images per class && corresponding 500 for validation, and 2000 background images without object in the FoV
 * Labelling tool: [labelimg](https://tzutalin.github.io/labelImg/) && [labelimg repo](https://github.com/tzutalin/labelImg)
 
-### Environment Installation (on ubuntu)
+### Clone our work! (on ubuntu)
 1. clone our repository into working space
 
 ```
