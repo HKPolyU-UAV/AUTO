@@ -11,7 +11,7 @@ The ever-burgeoning growth of autonomous unmanned aerial vehicles (UAVs) has dem
 ### Video
 
 ### Requirements
-* We have validated our system on **Ubuntu 18.04**
+* We have validated our system on **Ubuntu 18.04** [ubuntu release](https://releases.ubuntu.com/)
 * Installation of ROS: **ROS or Melodic:** [ROS Install](http://wiki.ros.org/ROS/Installation)
 * Requires **OpenCV >= 4.4:** [OpenCV Linux Install](https://docs.opencv.org/4.4.0/d7/d9f/tutorial_linux_install.html)
 * **Python 3.8** 
