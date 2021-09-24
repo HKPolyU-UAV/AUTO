@@ -41,4 +41,4 @@ catkin_make
 
 ## Maintainer 
 **Patrick Li-yu LO**: [liyu.lo@connect.polyu.hk](liyu.lo@connect.polyu.hk)<br/>
-Repo Co-Contributor: **Summer Chi Hao Yiu** [chi-hao.yiu@connect.polyu.hk] <br/>&& **Bryant Yu Tang** [bryant.tang@connect.polyu.hk]
+Repo Co-Contributor:<br/> **Summer Chi Hao Yiu** [chi-hao.yiu@connect.polyu.hk] <br/>&& **Bryant Yu Tang** [bryant.tang@connect.polyu.hk]
