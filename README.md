@@ -41,4 +41,4 @@ catkin_make
 
 ## Maintainer 
 Patrick Li-yu LO (Dept.AAE,PolyU): [liyu.lo@connect.polyu.hk](liyu.lo@connect.polyu.hk)<br/>
-Contributor: Summer Chi Hao Yiu && Bryant Yu Tang
+Repo Co-Contributor: Summer Chi Hao Yiu [chi-hao.yiu@connect.polyu.hk] && Bryant Yu Tang [bryant.tang@connect.polyu.hk]
