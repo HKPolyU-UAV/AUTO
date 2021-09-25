@@ -46,5 +46,5 @@ rosrun offb camera && rosrun offb track
 
 
 ## Maintainer 
-**Patrick Li-yu LO**: [liyu.lo@connect.polyu.hk](liyu.lo@connect.polyu.hk)<br/>
-Repo Co-Contributor:<br/> **Summer Chi Hao Yiu** [chi-hao.yiu@connect.polyu.hk] && <br/> **Bryant Yu Tang** [bryant.tang@connect.polyu.hk]
+**Patrick Li-yu LO**: liyu.lo@connect.polyu.hk<br/>
+Repo Co-Contributor:<br/> **Summer Chi Hao Yiu** chi-hao.yiu@connect.polyu.hk && <br/> **Bryant Yu Tang** bryant.tang@connect.polyu.hk
