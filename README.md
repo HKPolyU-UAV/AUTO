@@ -13,6 +13,9 @@ The ever-burgeoning growth of autonomous unmanned aerial vehicles (UAVs) has dem
 " target="_blank"><img src="http://img.youtube.com/vi/tY16YnZQoB4/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
+[![Watch the video]("http://img.youtube.com/vi/tY16YnZQoB4/0.jpg")](https://youtu.be/vt5fpE0bzSY)
+
+
 ### Requirements
 * We have validated our system on **Ubuntu 18.04** [ubuntu release](https://releases.ubuntu.com/)
 * Installation of ROS: **ROS or Melodic:** [ROS Install](http://wiki.ros.org/ROS/Installation)
