@@ -9,8 +9,8 @@ The ever-burgeoning growth of autonomous unmanned aerial vehicles (UAVs) has dem
 
 
 ### Video
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=https://www.youtube.com/watch?v=tY16YnZQoB4
-" target="_blank"><img src="http://img.youtube.com/vi/https://www.youtube.com/watch?v=tY16YnZQoB4/0.jpg" 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=tY16YnZQoB4
+" target="_blank"><img src="http://img.youtube.com/vi/tY16YnZQoB4/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 ### Requirements
