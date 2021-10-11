@@ -17,7 +17,6 @@
 #include <cmath>
 #include <numeric>
 
-#include <librealsense2/rs.hpp>
 #include <string>
 
 #include <message_filters/subscriber.h>
