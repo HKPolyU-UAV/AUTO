@@ -33,7 +33,7 @@ alt="IMAGE ALT TEXT HERE" width="533" height="400" border="10" /></a>
 
 ```
 cd ~/xx_ws/src
-git clone https://github.com/pattylo/Autonomous-Object-Tracking-UAV-System.git
+git clone https://github.com/pattylo/AUTO.git
 ```
 
 2. Modify </br>
