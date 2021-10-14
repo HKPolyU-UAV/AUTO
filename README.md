@@ -43,7 +43,7 @@ Go to [here](https://github.com/pattylo/AUTO/blob/master/offb/src/include/run_yo
     //this->mydnn.setPreferableBackend(cv::dnn::DNN_BACKEND_CUDA);
     //this->mydnn.setPreferableTarget(cv::dnn::DNN_TARGET_CUDA);
 ```
- and [here](https://github.com/pattylo/AUTO/blob/master/offb/src/camera.cpp#L19)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and [here](https://github.com/pattylo/AUTO/blob/master/offb/src/camera.cpp#L19)
 ```
 //change yolo custom weight file location, as well as the cfg file and name file
 ```
