@@ -37,13 +37,13 @@ git clone https://github.com/pattylo/Autonomous-Object-Tracking-UAV-System.git
 ```
 
 2. Modify 
-Go to [here]: (https://github.com/pattylo/AUTO/blob/master/offb/src/include/run_yolo.cpp#L19)
+Go to [here](https://github.com/pattylo/AUTO/blob/master/offb/src/include/run_yolo.cpp#L19)
 ```
 //uncomment the below if CUDA available
     //this->mydnn.setPreferableBackend(cv::dnn::DNN_BACKEND_CUDA);
     //this->mydnn.setPreferableTarget(cv::dnn::DNN_TARGET_CUDA);
 ```
-Go to [here]: (https://github.com/pattylo/AUTO/blob/master/offb/src/camera.cpp#L19)
+Go to [here](https://github.com/pattylo/AUTO/blob/master/offb/src/camera.cpp#L19)
 ```
 //change yolo custom weight file location, as well as the cfg file and name file
 ```
