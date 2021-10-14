@@ -36,7 +36,7 @@ cd ~/xx_ws/src
 git clone https://github.com/pattylo/Autonomous-Object-Tracking-UAV-System.git
 ```
 
-2. Modify 
+2. Modify </br>
 Go to [here](https://github.com/pattylo/AUTO/blob/master/offb/src/include/run_yolo.cpp#L19)
 ```
 //uncomment the below if CUDA available
