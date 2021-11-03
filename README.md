@@ -50,7 +50,7 @@ Go to [here](https://github.com/pattylo/AUTO/blob/master/offb/src/include/run_yo
 
 3. Compile 
 ```
-cd ~/xx_ws/src
+cd ~/xx_ws
 catkin_make
 ```
 
