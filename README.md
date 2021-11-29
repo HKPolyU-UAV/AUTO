@@ -1,8 +1,8 @@
 # AUTO (an "A"utonomous "U"av that "T"racks "O"bject)
 ##  An Autonomous Object Tracking UAV System for Surveillance Applications
-<div align="justify">
-This project is based upon the state-of-the-art [YOLO series, Tiny](https://github.com/AlexeyAB/darknet#how-to-train-tiny-yolo-to-detect-your-custom-objects) and the famous Kalman Filter. With both camera and object moving, our system is able to track the target robustly in a 3D world. The UAV would then try to maneuver with the dynamic object once it detects the movement from the target. The link to this journal paper could be seen [here](https://www.mdpi.com/1424-8220/21/23/7888)
-</div>
+
+This project is based upon the state-of-the-art [YOLO series, Tiny] (https://github.com/AlexeyAB/darknet#how-to-train-tiny-yolo-to-detect-your-custom-objects) and the famous Kalman Filter. With both camera and object moving, our system is able to track the target robustly in a 3D world. The UAV would then try to maneuver with the dynamic object once it detects the movement from the target. The link to this journal paper could be seen [here] (https://www.mdpi.com/1424-8220/21/23/7888) 
+
 
 ### Abstract
 <div align="justify">
