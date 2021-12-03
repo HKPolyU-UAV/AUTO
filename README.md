@@ -42,7 +42,7 @@ git clone https://github.com/pattylo/AUTO.git
 ```
 
 2. Modify </br>
-Go to [here](https://github.com/pattylo/AUTO/blob/master/offb/src/include/run_yolo.cpp#L19)
+Go to [here](https://github.com/pattylo/AUTO/blob/master/offb/src/include/run_yolo.cpp#L19) if Cuda Available
 ```
 //uncomment the below if CUDA available
     //this->mydnn.setPreferableBackend(cv::dnn::DNN_BACKEND_CUDA);
