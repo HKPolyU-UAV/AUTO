@@ -64,8 +64,13 @@ catkin_make
 rosrun offb camera && rosrun offb track
 #or can just write a launch file
 ```
-
+## Cite Us
+```
+L.-Y. Lo, C. H. Yiu, Y. Tang, A.-S. Yang, B. Li, and C.-Y. Wen, "Dynamic Object Tracking on Autonomous UAV System for Surveillance Applications," Sensors, vol. 21, no. 23, p. 7888, 2021.
+```
 
 ## Maintainer 
+```
 **Patrick Li-yu LO**: liyu.lo@connect.polyu.hk<br/>
 Repo Co-Contributor:<br/> **Summer Chi Hao Yiu** chi-hao.yiu@connect.polyu.hk && <br/> **Bryant Yu Tang** bryant.tang@connect.polyu.hk
+```
