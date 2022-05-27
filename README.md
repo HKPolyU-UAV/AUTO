@@ -1,4 +1,4 @@
-# AUTO (an "A"utonomous "U"av that "T"racks "O"bject)[![DOI](https://zenodo.org/badge/386585431.svg)](https://zenodo.org/badge/latestdoi/386585431)
+# AUTO (an "A"utonomous "U"av that "T"racks "O"bject)
 
 ##  Dynamic Object Tracking on Autonomous UAV System for Surveillance Applications
 
