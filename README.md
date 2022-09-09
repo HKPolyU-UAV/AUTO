@@ -67,9 +67,16 @@ rosrun offb camera && rosrun offb track
 ```
 ## Cite Us
 ```
-L.-Y. Lo, C. H. Yiu, Y. Tang, A.-S. Yang, B. Li, and C.-Y. Wen, 
-"Dynamic Object Tracking on Autonomous UAV System for Surveillance Applications," 
-Sensors, vol. 21, no. 23, p. 7888, 2021.
+@article{lo2021dynamic,
+  title={Dynamic Object Tracking on Autonomous UAV System for Surveillance Applications},
+  author={Lo, Li-Yu and Yiu, Chi Hao and Tang, Yu and Yang, An-Shik and Li, Boyang and Wen, Chih-Yung},
+  journal={Sensors},
+  volume={21},
+  number={23},
+  pages={7888},
+  year={2021},
+  publisher={MDPI}
+}
 ```
 
 ## Maintainer 
