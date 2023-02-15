@@ -39,7 +39,7 @@ alt="IMAGE ALT TEXT HERE" width="533" height="400" border="10" /></a>
 
 ```
 cd ~/xx_ws/src
-git clone https://github.com/pattylo/AUTO.git
+git clone https://github.com/PAIR-Lab/AUTO.git
 ```
 
 2. Modify </br>
