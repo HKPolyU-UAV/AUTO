@@ -35,7 +35,9 @@ alt="IMAGE ALT TEXT HERE" width="533" height="400" border="10" /></a>
 * Labelling tool: [labelimg](https://tzutalin.github.io/labelImg/) && [labelimg repo](https://github.com/tzutalin/labelImg)
 
 ### Clone our work! (on ubuntu)
-1. clone our repository into working space
+0. 2023 update
+   To save you some time, if you are only looking for ```YOLO IN ROS```, please go directly to [this repo](https://github.com/HKPolyU-UAV/yolo_ros_plugin).
+2. clone our repository into working space
 
 ```
 cd ~/xx_ws/src
